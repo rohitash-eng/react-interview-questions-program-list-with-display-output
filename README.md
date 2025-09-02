@@ -1,78 +1,76 @@
-# 🌐 HTML Layout Templates — Learn HTML and CSS
+# 🌐 React & JavaScript Interview Questions | Programs
 
-This repository contains a collection of simple **HTML templates** created to help beginners learn and understand the **structure of HTML documents** and the basics of **CSS styling**, particularly using the **float layout technique**.
+Welcome to this repository! 🚀  
 
----
+Here, I’ve compiled a collection of **JavaScript programs**, **Data Structure questions**, and **React interview concepts**.  
+The goal of this repo is to provide **practical examples** with working outputs, making it easier to prepare for technical interviews.  
 
-## 📚 What’s Inside?
-
-Each template showcases different layout concepts, built with:
-- 🧱 Plain HTML elements
-- 🎨 Basic CSS (no frameworks)
-- ➡️ `float: left` for layout positioning
-
-These templates are ideal for anyone starting with web development who wants to learn:
-- Semantic HTML structure
-- CSS styling basics
-- Float-based layouts
+I have also created a **React component** that displays each question along with its output, so you can visualize the solution better.  
+For a quick test, you can also copy-paste the code into any online JavaScript editor.
 
 ---
 
-## 📁 List of Templates with Screenshots
+## 📸 Preview – How Questions & Output Look    
 
-### 1. **Change Background Image on Scroll**
-_Title:_ `Change Background Image on Scroll`  
-![Change Background on Scroll](https://raw.githubusercontent.com/rohitash-eng/html-layout-using-float-css-normal-custom-css/refs/heads/main/blue-image-text-on-image-form-on-image-examples/images/Screenshot%202025-06-30%20at%2010.48.52%E2%80%AFPM.png)
+![Question Screenshot](https://raw.githubusercontent.com/rohitash-eng/react-interview-questions-program-list-with-display-output/refs/heads/main/public/images/programs.png)
 
 ---
 
-### 2. **Show Text on Image When Hover**
-_Title:_ `Show Text on Image When Hover`  
-![Text on Image Hover](https://raw.githubusercontent.com/rohitash-eng/html-layout-using-float-css-normal-custom-css/refs/heads/main/blue-image-text-on-image-form-on-image-examples/images/Screenshot%202025-06-30%20at%2010.49.10%E2%80%AFPM.png)
+## 📑 List of Questions  
+
+Below are some of the important **JavaScript & React interview questions** included in this project:  
+
+1. Polyfill of `flatMap()` function in JavaScript  
+2. Polyfill of `map()` function in JavaScript  
+3. Program to insert a value at any position in an **array**  
+4. Delete the last element from an **array**  
+5. Polyfill of `pop()` function (`customPop`)  
+6. Get the last element from an **array**  
+7. Example of `some()` function in JavaScript  
+8. Calculate **sum** using `reduce()` function  
+9. Create a **custom pipe** function in JavaScript  
+10. Group by tags (with and without `reduce`)  
+11. Find the **Longest Common Substring (LCS)**  
+12. Find the **position of each letter** in a string  
+13. Count **frequency of letters** in a string  
+14. Convert a string from **camelCase to Title Case**  
+
+...i will add more questions soon.
 
 ---
 
-### 3. **Chess Layout Using Float CSS**
-_Title:_ `chess-layout-using-float-css | Chess Layout Using Float CSS`  
-![Chess Layout](https://raw.githubusercontent.com/rohitash-eng/html-layout-using-float-css-normal-custom-css/refs/heads/main/blue-image-text-on-image-form-on-image-examples/images/Screenshot%202025-06-30%20at%2010.49.23%E2%80%AFPM.png)
+## ⚡ How to Run This Project  
 
----
+To run this project locally, follow these steps:  
 
-### 4. **My Blog Layout Using Float CSS**
-_Title:_ `My Blog Layout Using Float CSS`  
-![My Blog Layout](https://raw.githubusercontent.com/rohitash-eng/html-layout-using-float-css-normal-custom-css/refs/heads/main/blue-image-text-on-image-form-on-image-examples/images/Screenshot%202025-06-30%20at%2010.49.35%E2%80%AFPM.png)
+```bash
+# Clone the repository
+git clone https://github.com/rohitash-eng/react-interview-questions-program-list-with-display-output.git
 
----
+# Navigate to the project folder
+cd react-interview-questions-program-list-with-display-output
 
-### 5. **W3Schools City Layout Using Float CSS**
-_Title:_ `W3Schools City Layout Using Float CSS | HTML CSS Float Layout Tutorial`  
-![W3Schools City Layout](https://raw.githubusercontent.com/rohitash-eng/html-layout-using-float-css-normal-custom-css/refs/heads/main/blue-image-text-on-image-form-on-image-examples/images/Screenshot%202025-06-30%20at%2010.49.50%E2%80%AFPM.png)
+# Install dependencies
+yarn install
+# or
+npm install
 
----
+# Start the project
+yarn start
 
-### 6. **Website Layout | My First Website Layout Using Float CSS**
-_Title:_ `Website Layout | My First Website Layout Using Float CSS`  
-![My First Website](https://raw.githubusercontent.com/rohitash-eng/html-layout-using-float-css-normal-custom-css/refs/heads/main/blue-image-text-on-image-form-on-image-examples/images/Screenshot%202025-06-30%20at%2010.50.01%E2%80%AFPM.png)
+## 🙌 Contribute or Fork
+```
 
----
+Feel free to **fork**, **modify**, or **contribute** improvements to these templates. Happy coding!
+# react-interview-questions
+# react-interview-questions-program-list-with-display-output
+### ✅ Requirements  
 
-### 7. **Alternate Blog Float Style**
-![Alternate Blog Layout](https://raw.githubusercontent.com/rohitash-eng/html-layout-using-float-css-normal-custom-css/refs/heads/main/blue-image-text-on-image-form-on-image-examples/images/Screenshot%202025-06-30%20at%2010.50.32%E2%80%AFPM.png)
+- 🟢 **Node.js**: v20+  
+- ⚛️ **React**: v18+  
+- 📦 **npm / yarn**: Latest version recommended  
+- 💻 **Code Editor**: VS Code (or any preferred editor)  
 
----
-
-### 8. **Simple Image Caption Layout**
-![Image Caption Layout](https://raw.githubusercontent.com/rohitash-eng/html-layout-using-float-css-normal-custom-css/refs/heads/main/blue-image-text-on-image-form-on-image-examples/images/Screenshot%202025-06-30%20at%2010.50.19%E2%80%AFPM.png)
-
----
-
-## 🎥 Learn via Video
-
-Want to **see how these templates are built and explained** step-by-step?  
-👉 Watch my YouTube tutorial playlist here:  
-**[📺 HTML + CSS Float Layout Tutorials](https://www.youtube.com/playlist?list=PLN1cxIWe98bdFxfaSjK-ELMr0zDNIK8Mb)**
-
----
 
 ## 🙌 Contribute or Fork
 
