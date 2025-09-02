@@ -4,7 +4,6 @@ import CoreCssDashboard from './CoreCssDashboard';
 import BasicExampleOfCss from './components/BasicExampleOfCss';
 import Chess from './components/Chess';
 import FloatAndClear from './components/FloatAndClear';
-import CenterAlign from './components/CenterAlign';
 
 const coreCssRoutes: RouteObject[] = [
   {
@@ -14,7 +13,6 @@ const coreCssRoutes: RouteObject[] = [
       { path: 'basics', element: <BasicExampleOfCss /> },
       { path: 'chess', element: <Chess /> },
       { path: 'float-n-clear', element: <FloatAndClear /> },
-      { path: 'center-align', element: <CenterAlign /> },
     ],
   },
 ];

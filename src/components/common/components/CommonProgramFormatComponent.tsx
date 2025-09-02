@@ -1,5 +1,4 @@
 import React from "react";
-// this is Module css example
 import styles from '../../../assets/styles/programs.module.css';
 import '../../../assets/styles/programs-normal.css';
 import { programs_14 } from "./FourteenPrograms";
