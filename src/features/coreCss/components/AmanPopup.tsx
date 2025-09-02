@@ -1,7 +1,4 @@
-import React from "react";
 import "./amanPopup.css";
-import { Divider } from "@mui/material";
-import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 const products = [
      {
           id: 1,
@@ -146,7 +143,6 @@ const AmanPopup = () => {
                                         }
                                    }>
                                         {/* <Icon name="CaretDown" size="medium" /> */}
-                                        <ArrowDropDownIcon />
                                    </div>
                               </div>
                               <div className="divider-cl" style={{
@@ -226,7 +222,6 @@ const AmanPopup = () => {
                                         }}>Filters</h2>
                                         <div className="dropdown-icon">
                                              {/* <Icon name="CaretDown" size="medium" /> */}
-                                             <ArrowDropDownIcon />
                                         </div>
                                    </div>
 
@@ -324,7 +319,6 @@ const AmanPopup = () => {
                                              }
                                         }>
                                              {/* <Icon name="CaretDown" size="medium" /> */}
-                                             <ArrowDropDownIcon />
                                         </div>
                                    </div>
 
