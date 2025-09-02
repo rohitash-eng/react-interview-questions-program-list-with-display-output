@@ -12,7 +12,7 @@ For a quick test, you can also copy-paste the code into any online JavaScript ed
 
 ## 📸 Preview – How Questions & Output Look    
 
-![Question Screenshot](https://raw.githubusercontent.com/rohitash-eng/react-interview-questions-program-list-with-display-output/refs/heads/main/public/images/programs.png)
+![Question Screenshot](https://raw.githubusercontent.com/rohitash-eng/react-interview-questions-program-list-with-display-output/refs/heads/main/public/images/programs-test.png)
 
 ---
 
