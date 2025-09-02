@@ -61,9 +61,6 @@ yarn start
 ## 🙌 Contribute or Fork
 ```
 
-Feel free to **fork**, **modify**, or **contribute** improvements to these templates. Happy coding!
-# react-interview-questions
-# react-interview-questions-program-list-with-display-output
 ### ✅ Requirements  
 
 - 🟢 **Node.js**: v20+  
