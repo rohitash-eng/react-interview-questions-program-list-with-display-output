@@ -13,11 +13,13 @@ const Headers = () => {
                         <li className="sub-main-li"><Link to="/learn-core-css/basics">YouTube Video Cards</Link></li>
                         <li className="sub-main-li"><Link to="/learn-core-css/chess">Chess</Link></li>
                         <li className="sub-main-li"><Link to="/learn-core-css/float-n-clear">Float and clear</Link></li>
-                        <li className="sub-main-li"><Link to="/learn-core-css/center-align">Center Align</Link></li>
                     </ul>
                 </li>
                 <li className="main-li has-submenu">
                     <Link className="main-link" to="/learn-bootstrap-css/programs-list">Interview Program List</Link>
+                </li>
+                <li className="main-li has-submenu">
+                    <Link className="main-link" to="/learn-bootstrap-css/html-n-editor">Html Editor Link</Link>
                 </li>
             </ul>
         </div>
