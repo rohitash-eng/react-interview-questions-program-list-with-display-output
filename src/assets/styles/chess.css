@@ -1,0 +1,33 @@
+.core-chess-wrapper-main{
+    width: 100%;
+    margin: 0 auto;
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+}
+.core-chess-row{
+    width: 40%;
+    border: 1px solid #000;
+    margin: 0 auto;
+    text-align: center;
+    min-height: 480px;
+}
+.core-chess-box-layout-white{
+    width: calc(100%/8);
+    height: 60px;
+    background: #fff;
+    float: left;
+    font-size: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+.core-chess-box-layout-black{
+    width: calc(100%/8);
+    height:  60px;
+    background: #000;
+    float: left;
+    font-size: 50px;
+    text-align: center;
+    margin: 0 auto;
+    text-shadow: 2px 1px #fff;
+}

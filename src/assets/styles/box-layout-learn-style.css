@@ -1,0 +1,65 @@
+/*
+Explanation
+Header: 120px height + 1px top border + 1px bottom border = 122px
+Navigation Menu: 60px height + 1px top border + 1px bottom border + 15px margin-top = 77px
+Footer: 60px height + 1px top border + 1px bottom border + 15px margin-top = 77px
+Total height used by header, navigation menu, and footer (including margins and borders) = 122px + 77px + 77px = 276px
+
+Therefore, the main content container's height calculation should be calc(100vh - 276px) to account for the height of the header, navigation menu, footer, and their respective borders and margins.
+*/
+.core-css-main-container{
+    width: 100%;
+    height: 100%;
+}
+.core-css-header{
+    width: 100%;
+    height: 120px;
+    border: 1px solid;
+}
+.core-css-navigation-menu{
+    width: 100%;
+    height: 60px;
+    border: 1px solid;
+    margin-top: 15px;
+}
+.core-css-footer{
+    width: 100%;
+    height: 60px;
+    border: 1px solid;
+    margin-top: 15px;
+    bottom:0;
+}
+.core-css-main-content-container{
+    width: 100%;
+    height: calc(100vh - 276px);
+    border: 1px solid;
+}
+/*
+Explanation
+Header: 120px height + 1px top border + 1px bottom border = 122px
+Navigation Menu: 60px height + 1px top border + 1px bottom border + 15px margin-top = 77px
+Footer: 60px height + 1px top border + 1px bottom border + 15px margin-top = 77px
+Total height used by header, navigation menu, and footer (including margins and borders) = 122px + 77px + 77px = 276px
+
+Therefore, the main content container's height calculation should be calc(100vh - 276px) to account for the height of the header, navigation menu, footer, and their respective borders and margins.
+*/
+
+.core-css-sidebar-left{
+    width: 20%;
+    height: 100%;
+    border: 1px solid;
+    float: left;
+}
+.core-css-sidebar-right{
+    width: 20%;
+    height: 100%;
+    border: 1px solid;
+    float: left;
+}
+.core-css-main-content-section{
+    width: calc(60% - 10px);
+    float: left;
+    border: 1px solid;
+    overflow: auto;
+    height: 100%;
+}

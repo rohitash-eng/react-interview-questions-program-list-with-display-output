@@ -1,0 +1,19 @@
+/* module css should have camalClass names not with hypen otherwise u will face error in react  */
+.programContainer{
+    padding: 20px !important;
+}
+.qlIndent3{
+    margin-left: 120px;
+}
+
+.ql-indent-1{
+    margin-left: 40px;
+}
+
+.ql-indent-2{
+    margin-left: 80px;
+}
+.core-css-main-content-section{
+    overflow: hidden;
+    height: auto;
+}

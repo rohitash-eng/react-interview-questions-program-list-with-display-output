@@ -1,0 +1,202 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.core-css-main-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9f9f9;
+}
+
+/* Header Container */
+.core-css-header {
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+/* Main Menu */
+.core-main-menu-list {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+/* Main LI */
+.main-li {
+  position: relative;
+}
+
+/* Main Links */
+.main-link {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 15px;
+  display: block;
+  transition: background 0.3s ease;
+}
+
+.main-link:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+/* Submenu List */
+.core-sub-menu-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #444;
+  min-width: 220px;
+  padding: 10px 0;
+  display: none;
+  flex-direction: column;
+  border-radius: 4px;
+  z-index: 1000;
+}
+
+.has-submenu:hover .core-sub-menu-list {
+  display: flex;
+}
+
+/* Submenu Items */
+.sub-main-li {
+  list-style: none;
+}
+
+.sub-main-li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+.sub-main-li a:hover {
+  background-color: #666;
+}
+
+.core-video-wrapper-main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* Each video box */
+.core-video-box {
+  flex: 0 0 calc(33.333% - 13.33px);
+  /* 3 per row with space */
+  background: #fff;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive iframe height */
+.iframe-height {
+  width: 100%;
+  height: 200px;
+  border: none;
+}
+
+/* Caption below video */
+.core-video-caption {
+  padding: 10px 15px;
+}
+
+.core-video-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Responsive support */
+@media screen and (max-width: 1024px) {
+  .core-video-box {
+    flex: 0 0 calc(50% - 10px);
+    /* 2 per row on tablets */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .core-video-box {
+    flex: 0 0 100%;
+    /* Full width on mobile */
+  }
+
+  .iframe-height {
+    height: 180px;
+  }
+}
+
+
+.core-css-footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.core-css-footer-main {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+
+/* Footer Menu */
+.core-css-footer-menu ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.core-css-footer-menu ul li a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.core-css-footer-menu ul li a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Copyright */
+.core-css-copyright {
+  font-size: 14px;
+  color: #aaa;
+  margin-top: 10px;
+}
+
+/* Responsive Behavior */
+@media screen and (max-width: 600px) {
+  .core-css-footer-main {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .core-css-footer-menu {
+    margin-bottom: 10px;
+  }
+
+  .core-css-footer-menu ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
