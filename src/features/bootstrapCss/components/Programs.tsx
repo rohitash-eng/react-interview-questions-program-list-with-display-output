@@ -1,7 +1,6 @@
-import React from "react";
 // this is Module css example
-import styles from '../../../assets/styles/programs.module.css';
 import '../../../assets/styles/programs-normal.css';
+import styles from '../../../assets/styles/programs.module.css';
 const Programs = () => {
     const exampleHtml = `
     <p class="ql-indent-2">
@@ -2424,8 +2423,8 @@ const Programs = () => {
 </p>
 <p class="ql-indent-2">
     <strong style="font-size: large;">
-        <span class="ql-cursor">﻿</span>Question 12:- C</strong>
-    <strong style="font-size: large; font-family: Arial, sans-serif;">ount show the position of each letter of letter.</strong>
+        <span class="ql-cursor">﻿</span>Question 12:- </strong>
+    <strong style="font-size: 14pt; font-family: Arial, sans-serif; color: rgb(107, 36, 178);">Count show the position of each letter of letter.</strong>
 </p>
 <p class="ql-indent-2">
     <strong style="font-size: large; font-family: Arial, sans-serif;">Ex - rohitashRohitash</strong>
