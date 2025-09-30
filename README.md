@@ -66,7 +66,7 @@ yarn start
 
 FIRST GO TO DB.json folder
 then run command
-npm json-server db.json --port 5000
+npx json-server db.json --port 5000
 then test you apis like
 http://localhost:5000/tasks
 api name depends on your array name in db.json, as in current db.json its tasks so all api work with
