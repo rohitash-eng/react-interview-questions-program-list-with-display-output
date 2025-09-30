@@ -1,0 +1,31 @@
+svg {
+     width: 24px;
+     height: 24px;
+}
+.tasks-container {
+     max-height: calc(100vh - 156px);
+}
+
+.task-app ::-webkit-scrollbar {
+     width: 8px;
+}
+
+.task-app ::-webkit-scrollbar-track {
+     background-color: rgb(17 24 39);
+     -webkit-border-radius: 10px;
+     border-radius: 10px;
+}
+
+.task-app ::-webkit-scrollbar-thumb {
+     -webkit-border-radius: 10px;
+     border-radius: 10px;
+     background: rgba(85, 74, 208, 0.9);
+}
+
+.task-app ::-webkit-scrollbar-thumb:hover {
+     background: rgba(85, 74, 208);
+}
+
+.main-div {
+     padding: 50px;
+}
