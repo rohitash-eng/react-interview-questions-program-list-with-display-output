@@ -60,6 +60,21 @@ yarn start
 
 ## 🙌 Contribute or Fork
 ```
+# 🌐 In this code, i have create task module with fake api | with json-server fake api | to check task module we need to first start the json-server using command like
+
+```bash
+
+FIRST GO TO DB.json folder
+then run command
+npm json-server db.json --port 5000
+then test you apis like
+http://localhost:5000/tasks
+api name depends on your array name in db.json, as in current db.json its tasks so all api work with
+http://localhost:5000/tasks
+try it on postname
+
+```
+
 
 ### ✅ Requirements  
 
